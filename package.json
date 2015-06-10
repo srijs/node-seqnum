@@ -1,0 +1,26 @@
+{
+  "name": "seqnum",
+  "version": "1.0.0",
+  "description": "An unlimited, unsigned, increasing integer object",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srijs/node-seqnum.git"
+  },
+  "keywords": [
+    "sequence",
+    "number",
+    "bigint",
+    "integer",
+    "unlimited"
+  ],
+  "author": "Sam Rijs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srijs/node-seqnum/issues"
+  },
+  "homepage": "https://github.com/srijs/node-seqnum"
+}
