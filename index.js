@@ -39,7 +39,7 @@ var nextNum = function (num) {
 
 var mkNum = function (num) {
   return {
-    next: function () { return nextNum(num); },
+    next: function () { return mkNum(nextNum(num)); },
     toString: function () { return toStr(num); },
     toJSON: function () { return toStr(num); }
   };
