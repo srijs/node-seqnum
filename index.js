@@ -28,7 +28,7 @@ var nextNum = function (num) {
     var dig = num[i - 1];
     var succ = (dig + carry) % 10;
     next[i - 1] = succ;
-    carry = dig == 9;
+    carry = carry && dig == 9;
     i--;
   }
   if (carry) {
